@@ -1,20 +1,74 @@
-body{
+body {
+    font-weight: 400;
+    font-style: normal;
     font-family: "Roboto", sans-serif;
+    color: #212121;
 }
-.webstudio{
+.webstudio {
+    color: black;
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
 }
-span{
+header{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: black;
+}
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+img+p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+ul p:last-of-type {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+address {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: black;
+}
+.contact-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+address {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+span {
     color: #2196F3;
 }
-a{
+a {
     text-decoration: none;
+    color: #212121;
+} 
+nav a:hover {
+    color: blue;
 }
-ul{
+ul {
     list-style: none;
+}
+footer {
+    background: #2F303A;
 }
